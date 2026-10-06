@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Favicon Logo -->
+  <link rel="icon" type="image/png" href="/assets/logo-D4P41aGs.png" />
+
+  <!-- SEO Meta Tags for Digital Marketing SEC 5 Project -->
+  <title>SONIQ — Hear Beyond | Premium Audio Technology & Electronics</title>
+  <meta name="description"
+    content="Discover SONIQ premium wireless earbuds, studio headphones, portable Bluetooth speakers, and Dolby Atmos soundbars. Engineered for immersive sound, all-day comfort, and innovative design." />
+  <meta name="keywords"
+    content="SONIQ, wireless earbuds, ANC headphones, Bluetooth speakers, soundbars, premium audio, Dolby Atmos, noise cancellation, high resolution audio" />
+  <meta name="author" content="SONIQ Audio Technologies" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" crossorigin href="/assets/index-CR1FBooe.css">
+</head>
+
+<body>
+
+  <!-- Toast Notification Container -->
+  <div id="toast-container" class="toast-container"></div>
+
+  <!-- Top Announcement Bar -->
+  <div class="top-bar">
+    <span>⚡ FESTIVE SALE: Use code <strong class="promo-code-box">SONIQ10</strong> for 10% Extra Discount</span>
+    <span style="opacity: 0.4;">|</span>
+    <span>🛡️ Free Express Shipping & 1-Year Brand Warranty</span>
+  </div>
+
+  <!-- Sticky Navigation Header -->
+  <header class="sticky-header">
+    <div class="header-container">
+
+      <!-- Brand Logo -->
+      <a href="#home" class="brand-logo" data-page="home">
+        <img src="/assets/logo-D4P41aGs.png" alt="SONIQ Hear Beyond Logo" class="header-logo-img" />
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="desktop-nav">
+        <a href="#home" class="nav-link active" data-page="home">Home</a>
+        <a href="#earbuds" class="nav-link" data-page="earbuds">Earbuds</a>
+        <a href="#headphones" class="nav-link" data-page="headphones">Headphones</a>
+        <a href="#speakers" class="nav-link" data-page="speakers">Speakers</a>
+        <a href="#soundbars" class="nav-link" data-page="soundbars">Soundbars</a>
+        <a href="#contact" class="nav-link" data-page="contact">Contact</a>
+      </nav>
+
+      <!-- Action Icons -->
+      <div class="header-actions">
+        <!-- Search Button -->
+        <button id="open-search-btn" class="action-btn" title="Search Products">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8" />
+            <line x1="21" y1="21" x2="16.65" y2="16.65" />
+          </svg>
+        </button>
+
+        <!-- Cart Button -->
+        <button id="open-cart-btn" class="action-btn" title="Shopping Cart">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="9" cy="21" r="1" />
+            <circle cx="20" cy="21" r="1" />
+            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6" />
+          </svg>
+          <span id="cart-badge" class="cart-badge">0</span>
+        </button>
+
+        <!-- Mobile Menu Toggle -->
+        <button id="mobile-toggle-btn" class="action-btn mobile-menu-btn" title="Menu">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="12" x2="21" y2="12" />
+            <line x1="3" y1="6" x2="21" y2="6" />
+            <line x1="3" y1="18" x2="21" y2="18" />
+          </svg>
+        </button>
+      </div>
+
+    </div>
+
+    <!-- Mobile Drawer Menu -->
+    <div id="mobile-menu" class="mobile-menu">
+      <a href="#home" class="mobile-nav-link active" data-page="home">Home</a>
+      <a href="#earbuds" class="mobile-nav-link" data-page="earbuds">Earbuds</a>
+      <a href="#headphones" class="mobile-nav-link" data-page="headphones">Headphones</a>
+      <a href="#speakers" class="mobile-nav-link" data-page="speakers">Speakers</a>
+      <a href="#soundbars" class="mobile-nav-link" data-page="soundbars">Soundbars</a>
+      <a href="#contact" class="mobile-nav-link" data-page="contact">Contact</a>
+    </div>
+  </header>
+
+  <!-- Main Content Container -->
+  <main class="main-container">
+
+    <!-- ==================================================
+         1. HOME PAGE
+         ================================================== -->
+    <section id="page-home" class="page-section active">
+
+      <!-- Hero Section -->
+      <div class="hero-wrapper">
+        <div class="hero-glow-1"></div>
+        <div>
+          <span class="hero-pill">✨ Next-Gen Acoustic Engineering</span>
+          <h1 class="hero-headline">Hear Beyond<span>.</span></h1>
+          <p class="hero-subheading">Premium audio engineered for your everyday. Immerse yourself in crystal clear
+            high-resolution sound built for modern life.</p>
+          <div class="hero-btns">
+            <button class="btn-primary" data-page="earbuds">
+              Shop Now
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <line x1="5" y1="12" x2="19" y2="12" />
+                <polyline points="12 5 19 12 12 19" />
+              </svg>
+            </button>
+            <button class="btn-secondary" data-page="headphones">Explore Products</button>
+          </div>
+        </div>
+
+        <div class="hero-card-image">
+          <img src="/assets/hero-CKpRbc7N.jpg" alt="SONIQ Premium Wireless Headphones and Earbuds" />
+        </div>
+      </div>
+
+      <!-- ABOUT SONIQ Section -->
+      <div
+        style="background: var(--bg-secondary); border: 1px solid var(--border-color); border-radius: 24px; padding: 48px 32px; text-align: center; margin: 60px 0;">
+        <span class="section-tag">About SONIQ</span>
+        <h2 style="font-size: 2.25rem; font-weight: 800; margin-bottom: 16px;">Engineered For Pure Acoustic Excellence
+        </h2>
+        <p style="color: var(--text-secondary); max-width: 760px; margin: 0 auto; line-height: 1.7; font-size: 1rem;">
+          SONIQ creates modern audio products designed to deliver immersive sound, ergonomic comfort, and reliable
+          everyday performance. From featherlight true wireless earbuds to studio-grade noise-cancelling headphones and
+          cinema soundbars, our technology is crafted to elevate every note you hear.
+        </p>
+      </div>
+
+      <!-- Why Choose SONIQ? (4 Features) -->
+      <div style="margin-bottom: 60px;">
+        <div style="text-align: center; margin-bottom: 32px;">
+          <span class="section-tag">Brand Advantage</span>
+          <h2 class="section-title">Why Choose SONIQ?</h2>
+        </div>
+
+        <div class="feature-grid">
+          <div class="feature-card">
+            <div class="feature-icon-box">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" />
+                <path d="M19.07 4.93a10 10 0 0 1 0 14.14" />
+                <path d="M15.54 8.46a5 5 0 0 1 0 7.07" />
+              </svg>
+            </div>
+            <h3>Immersive Sound</h3>
+            <p>Custom-tuned drivers and spatial audio processing deliver deep punchy bass, crisp mids, and ultra-clear
+              highs.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon-box">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L3 12.5V19h6.5z" />
+              </svg>
+            </div>
+            <h3>All-Day Comfort</h3>
+            <p>Ergonomic memory-foam cushions and ultralight earbud shells built for fatigue-free listening all day
+              long.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon-box">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="1" y="6" width="18" height="12" rx="2" ry="2" />
+                <line x1="23" y1="11" x2="23" y2="13" />
+              </svg>
+            </div>
+            <h3>Long Battery Life</h3>
+            <p>Up to 70 hours of non-stop playback with Type-C Fast Charging — 10 minutes charge gives 2 full hours of
+              playtime.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon-box">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polygon points="12 2 2 7 12 12 22 7 12 2" />
+                <polyline points="2 17 12 22 22 17" />
+                <polyline points="2 12 12 17 22 12" />
+              </svg>
+            </div>
+            <h3>Modern Design</h3>
+            <p>Minimalist matte finishes, metallic accents, and sleek futuristic aesthetics that complement your
+              personal style.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Featured Products Section -->
+      <div style="margin-bottom: 60px;">
+        <div class="section-header">
+          <div>
+            <span class="section-tag">Handpicked Innovation</span>
+            <h2 class="section-title">Featured Products</h2>
+          </div>
+          <button class="btn-secondary" data-page="earbuds" style="padding: 8px 16px; font-size: 0.8rem;">View All
+            Products →</button>
+        </div>
+
+        <div id="featured-products-grid" class="products-grid"></div>
+      </div>
+
+      <!-- Promotional Banner -->
+      <div
+        style="background: linear-gradient(135deg, #151B23, #171D26); border: 1px solid var(--border-color); border-radius: 24px; padding: 48px; position: relative; overflow: hidden; margin-bottom: 60px;">
+        <div style="max-width: 540px;">
+          <span
+            style="background: var(--accent-primary); color: #000; font-size: 0.7rem; font-weight: 800; padding: 4px 10px; border-radius: 6px; text-transform: uppercase;">Limited
+            Time Offer</span>
+          <h2 style="font-size: 2.75rem; font-weight: 800; margin: 16px 0 12px 0; line-height: 1.1;">Upgrade Your
+            Sound<span style="color: var(--accent-primary);">.</span></h2>
+          <p style="color: var(--text-secondary); margin-bottom: 24px; font-size: 0.95rem;">Discover your next audio
+            experience. Get up to 25% discount across our entire lineup of premium noise-cancelling earbuds and spatial
+            Atmos soundbars.</p>
+          <button class="btn-primary" data-page="earbuds">Shop All Products →</button>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ==================================================
+         2. EARBUDS PAGE
+         ================================================== -->
+    <section id="page-earbuds" class="page-section">
+      <div class="category-hero">
+        <img src="/assets/earbuds-H720YTAr.jpg" alt="Wireless Earbuds" class="category-hero-img" />
+        <span class="section-tag">SONIQ Collection</span>
+        <h1 style="font-size: 3rem; font-weight: 800; margin: 8px 0;">Wireless Earbuds<span
+            style="color: var(--accent-primary);">.</span></h1>
+        <p style="color: var(--text-secondary); font-size: 1.1rem;">Small size. Massive sound.</p>
+      </div>
+
+      <div class="toolbar">
+        <span style="font-size: 0.85rem; color: var(--text-secondary);">Showing 6 realistic models</span>
+        <select id="earbuds-sort-select" class="toolbar-select" onchange="handleSortChange('earbuds')">
+          <option value="featured">Sort by: Featured</option>
+          <option value="low-high">Price: Low to High</option>
+          <option value="high-low">Price: High to Low</option>
+          <option value="rating">Highest Rated</option>
+        </select>
+      </div>
+
+      <div id="earbuds-products-grid" class="products-grid"></div>
+    </section>
+
+    <!-- ==================================================
+         3. HEADPHONES PAGE
+         ================================================== -->
+    <section id="page-headphones" class="page-section">
+      <div class="category-hero">
+        <img src="/assets/headphones-BZ0R5gkF.jpg" alt="Headphones" class="category-hero-img" />
+        <span class="section-tag">SONIQ Collection</span>
+        <h1 style="font-size: 3rem; font-weight: 800; margin: 8px 0;">Headphones<span
+            style="color: var(--accent-primary);">.</span></h1>
+        <p style="color: var(--text-secondary); font-size: 1.1rem;">Immerse yourself in every detail.</p>
+      </div>
+
+      <div class="toolbar">
+        <span style="font-size: 0.85rem; color: var(--text-secondary);">Showing 6 realistic models</span>
+        <select id="headphones-sort-select" class="toolbar-select" onchange="handleSortChange('headphones')">
+          <option value="featured">Sort by: Featured</option>
+          <option value="low-high">Price: Low to High</option>
+          <option value="high-low">Price: High to Low</option>
+          <option value="rating">Highest Rated</option>
+        </select>
+      </div>
+
+      <div id="headphones-products-grid" class="products-grid"></div>
+    </section>
+
+    <!-- ==================================================
+         4. BLUETOOTH SPEAKERS PAGE
+         ================================================== -->
+    <section id="page-speakers" class="page-section">
+      <div class="category-hero">
+        <img src="/assets/speaker-Dv-VCXRT.jpg" alt="Bluetooth Speakers" class="category-hero-img" />
+        <span class="section-tag">SONIQ Collection</span>
+        <h1 style="font-size: 3rem; font-weight: 800; margin: 8px 0;">Bluetooth Speakers<span
+            style="color: var(--accent-primary);">.</span></h1>
+        <p style="color: var(--text-secondary); font-size: 1.1rem;">Powerful sound. Anywhere you go.</p>
+      </div>
+
+      <div class="toolbar">
+        <span style="font-size: 0.85rem; color: var(--text-secondary);">Showing 6 realistic models</span>
+        <select id="speakers-sort-select" class="toolbar-select" onchange="handleSortChange('speakers')">
+          <option value="featured">Sort by: Featured</option>
+          <option value="low-high">Price: Low to High</option>
+          <option value="high-low">Price: High to Low</option>
+          <option value="rating">Highest Rated</option>
+        </select>
+      </div>
+
+      <div id="speakers-products-grid" class="products-grid"></div>
+    </section>
+
+    <!-- ==================================================
+         5. SOUNDBARS PAGE
+         ================================================== -->
+    <section id="page-soundbars" class="page-section">
+      <div class="category-hero">
+        <img src="/assets/soundbar-DeSa5Egq.jpg" alt="Soundbars" class="category-hero-img" />
+        <span class="section-tag">SONIQ Collection</span>
+        <h1 style="font-size: 3rem; font-weight: 800; margin: 8px 0;">Soundbars<span
+            style="color: var(--accent-primary);">.</span></h1>
+        <p style="color: var(--text-secondary); font-size: 1.1rem;">Bring cinema-quality sound home.</p>
+      </div>
+
+      <div class="toolbar">
+        <span style="font-size: 0.85rem; color: var(--text-secondary);">Showing 6 realistic models</span>
+        <select id="soundbars-sort-select" class="toolbar-select" onchange="handleSortChange('soundbars')">
+          <option value="featured">Sort by: Featured</option>
+          <option value="low-high">Price: Low to High</option>
+          <option value="high-low">Price: High to Low</option>
+          <option value="rating">Highest Rated</option>
+        </select>
+      </div>
+
+      <div id="soundbars-products-grid" class="products-grid"></div>
+    </section>
+
+    <!-- ==================================================
+         6. CONTACT US PAGE
+         ================================================== -->
+    <section id="page-contact" class="page-section">
+      <div style="text-align: center; margin-bottom: 32px;">
+        <span class="section-tag">Customer Support & Enquiries</span>
+        <h1 style="font-size: 3rem; font-weight: 800;">Get in Touch<span style="color: var(--accent-primary);">.</span>
+        </h1>
+        <p style="color: var(--text-secondary); max-width: 500px; margin: 8px auto 0 auto;">Have a question about SONIQ
+          audio products, warranty claims, or enterprise bulk orders?</p>
+      </div>
+
+      <div class="contact-grid">
+
+        <!-- Left: Business Info -->
+        <div>
+          <div class="contact-card" style="margin-bottom: 24px;">
+            <h3
+              style="font-size: 1.4rem; font-weight: 700; border-bottom: 1px solid var(--border-color); padding-bottom: 16px; margin-bottom: 24px;">
+              SONIQ Audio Technologies</h3>
+
+            <div class="info-item">
+              <div class="info-icon-bg">📍</div>
+              <div>
+                <h4 style="font-weight: 700; color: #fff;">Corporate Address</h4>
+                <p style="font-size: 0.85rem; color: var(--text-secondary);">123 Tech Avenue, New Delhi, India – 110001
+                </p>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <div class="info-icon-bg">✉️</div>
+              <div>
+                <h4 style="font-weight: 700; color: #fff;">Email Support</h4>
+                <p style="font-size: 0.85rem; color: var(--accent-primary); font-weight: 600;">
+                  support@soniqaudio.example</p>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <div class="info-icon-bg">📞</div>
+              <div>
+                <h4 style="font-weight: 700; color: #fff;">Toll-Free Phone</h4>
+                <p style="font-size: 0.85rem; color: #fff; font-weight: 700;">+91 98765 43210</p>
+              </div>
+            </div>
+
+            <div class="info-item" style="margin-bottom: 0;">
+              <div class="info-icon-bg">🕒</div>
+              <div>
+                <h4 style="font-weight: 700; color: #fff;">Opening Hours</h4>
+                <p style="font-size: 0.85rem; color: #34d399; font-weight: 600;">Monday – Saturday: 10:00 AM – 7:00 PM
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <h4
+              style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; color: #fff; margin-bottom: 12px;">
+              Social Media Channels</h4>
+            <div class="social-links">
+              <a href="https://instagram.com" target="_blank" class="social-btn" title="Instagram">IG</a>
+              <a href="https://facebook.com" target="_blank" class="social-btn" title="Facebook">FB</a>
+              <a href="https://x.com" target="_blank" class="social-btn" title="X">X</a>
+              <a href="https://youtube.com" target="_blank" class="social-btn" title="YouTube">YT</a>
+              <a href="https://linkedin.com" target="_blank" class="social-btn" title="LinkedIn">IN</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Contact Form -->
+        <div class="contact-card">
+          <h3 style="font-size: 1.4rem; font-weight: 700; margin-bottom: 20px;">Send Us a Message</h3>
+
+          <form id="contact-form">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+              <div class="form-group">
+                <label class="form-label">Full Name *</label>
+                <input type="text" required placeholder="John Doe" class="form-input" />
+              </div>
+              <div class="form-group">
+                <label class="form-label">Email Address *</label>
+                <input type="email" required placeholder="john@example.com" class="form-input" />
+              </div>
+            </div>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+              <div class="form-group">
+                <label class="form-label">Phone Number *</label>
+                <input type="tel" required placeholder="+91 98765 43210" class="form-input" />
+              </div>
+              <div class="form-group">
+                <label class="form-label">Subject *</label>
+                <select class="form-select">
+                  <option>General Product Enquiry</option>
+                  <option>Warranty Claim</option>
+                  <option>Order & Shipping Status</option>
+                  <option>Corporate Bulk Purchasing</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">Message *</label>
+              <textarea rows="4" required placeholder="How can we help you today?" class="form-textarea"></textarea>
+            </div>
+
+            <button type="submit" class="btn-primary" style="width: 100%;">Submit Enquiry →</button>
+          </form>
+        </div>
+
+      </div>
+
+      <!-- Embedded Location Map Section -->
+      <div
+        style="margin-top: 40px; background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 24px; padding: 24px;">
+        <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 16px;">📍 Store Location & Tech Lab</h3>
+        <div
+          style="width: 100%; height: 240px; background: var(--bg-primary); border: 1px solid var(--border-color); border-radius: 16px; display: flex; align-items: center; justify-content: center; text-align: center; padding: 20px;">
+          <div>
+            <h4 style="font-size: 1.1rem; font-weight: 700; color: #fff;">SONIQ Audio Experience Center</h4>
+            <p style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 4px;">123 Tech Avenue, Connaught
+              Place, New Delhi, India – 110001</p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- Slide-over Cart Drawer -->
+  <div id="cart-backdrop" class="cart-drawer-backdrop"></div>
+  <div id="cart-drawer" class="cart-drawer">
+    <div class="cart-header">
+      <h3 style="font-size: 1.25rem; font-weight: 800;">Your Cart</h3>
+      <button id="close-cart-btn" style="color: var(--text-secondary); font-size: 1.2rem;">✕</button>
+    </div>
+
+    <div id="cart-items-container" class="cart-body"></div>
+
+    <div id="cart-footer-area" class="cart-footer">
+      <form id="promo-form" style="display: flex; gap: 8px; margin-bottom: 16px;">
+        <input id="promo-input" type="text" placeholder="Promo code (e.g. SONIQ10)"
+          style="flex: 1; background: var(--bg-primary); border: 1px solid var(--border-color); color: #fff; padding: 8px 12px; border-radius: 8px; font-size: 0.8rem; outline: none;" />
+        <button type="submit"
+          style="background: var(--border-color); color: #fff; font-weight: 700; padding: 8px 16px; border-radius: 8px; font-size: 0.8rem;">Apply</button>
+      </form>
+
+      <div
+        style="font-size: 0.8rem; color: var(--text-secondary); space-y-4; border-top: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color); padding: 12px 0; margin-bottom: 16px;">
+        <div style="display: flex; justify-content: space-between; margin-bottom: 4px;">
+          <span>Subtotal</span><span id="cart-subtotal" style="color: #fff; font-weight: 600;">₹0</span>
+        </div>
+        <div style="display: flex; justify-content: space-between; margin-bottom: 4px; color: #34d399;">
+          <span>Discount</span><span id="cart-discount">₹0</span>
+        </div>
+        <div style="display: flex; justify-content: space-between; margin-bottom: 4px;">
+          <span>Shipping</span><span style="color: #34d399; font-weight: 600;">FREE</span>
+        </div>
+        <div
+          style="display: flex; justify-content: space-between; font-size: 1rem; font-weight: 800; color: #fff; margin-top: 8px; padding-top: 8px; border-top: 1px solid var(--border-color);">
+          <span>Total</span><span id="cart-total" style="color: var(--accent-primary);">₹0</span>
+        </div>
+      </div>
+
+      <button onclick="closeCartDrawer(); openCheckoutModal();" class="btn-primary" style="width: 100%;">Proceed to
+        Checkout →</button>
+    </div>
+  </div>
+
+  <!-- Quick View Modal -->
+  <div id="quickview-modal" class="modal-overlay">
+    <div class="modal-card">
+      <button class="modal-close" onclick="closeQuickView()">✕</button>
+      <div id="quickview-content"></div>
+    </div>
+  </div>
+
+  <!-- Search Modal -->
+  <div id="search-modal" class="modal-overlay">
+    <div class="modal-card" style="max-width: 540px;">
+      <button id="close-search-btn" class="modal-close">✕</button>
+      <h3 style="font-size: 1.2rem; font-weight: 800; margin-bottom: 16px;">Search SONIQ Catalog</h3>
+      <input id="search-input" type="text" placeholder="Search earbuds, ANC, headphones, soundbars..."
+        class="form-input" style="margin-bottom: 16px;" />
+      <div id="search-results" style="max-height: 320px; overflow-y: auto;"></div>
+    </div>
+  </div>
+
+  <!-- Checkout Modal -->
+  <div id="checkout-modal" class="modal-overlay">
+    <div class="modal-card" style="max-width: 680px;">
+      <button class="modal-close" onclick="closeCheckoutModal()">✕</button>
+
+      <!-- Step 1: Checkout Details Form -->
+      <div id="checkout-form-view">
+        <h2 style="font-size: 1.5rem; font-weight: 800; margin-bottom: 4px;">Checkout & Order Summary</h2>
+        <p style="font-size: 0.8rem; color: var(--text-secondary); margin-bottom: 20px;">Enter your details to complete
+          your order and receive your official digital receipt.</p>
+
+        <form onsubmit="completeOrder(event)">
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+            <div class="form-group">
+              <label class="form-label">Full Name *</label>
+              <input type="text" id="checkout-name" required value="Aarav Sharma" class="form-input" />
+            </div>
+            <div class="form-group">
+              <label class="form-label">Customer Email Address *</label>
+              <input type="email" id="checkout-email" required placeholder="name@example.com"
+                value="aarav.sharma@example.com" class="form-input" />
+            </div>
+          </div>
+
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+            <div class="form-group">
+              <label class="form-label">Phone Number *</label>
+              <input type="tel" id="checkout-phone" required value="+91 98765 43210" class="form-input" />
+            </div>
+            <div class="form-group">
+              <label class="form-label">Payment Method *</label>
+              <select id="checkout-payment" class="form-select">
+                <option value="UPI / GPay / PhonePe">UPI / GPay / PhonePe (Instant 0% Fee)</option>
+                <option value="Credit / Debit Card">Credit / Debit Card</option>
+                <option value="Net Banking">Net Banking</option>
+                <option value="Cash on Delivery">Cash on Delivery (COD)</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Shipping Address *</label>
+            <input type="text" id="checkout-address" required
+              value="Keshav Mahavidyalaya, Sainik Vihar, Pitampura, Delhi – 110034" class="form-input" />
+          </div>
+
+          <div
+            style="background: var(--bg-secondary); border: 1px solid var(--border-color); padding: 14px; border-radius: 12px; margin-bottom: 20px; display: flex; justify-content: space-between; align-items: center;">
+            <span style="font-size: 0.9rem; font-weight: 700;">Total Amount:</span>
+            <span id="checkout-total-price"
+              style="font-size: 1.4rem; font-family: var(--font-heading); font-weight: 800; color: var(--accent-primary);">₹0</span>
+          </div>
+
+          <button type="submit" class="btn-primary" style="width: 100%; padding: 14px; font-size: 0.95rem;">Place Order
+            & Send Receipt →</button>
+        </form>
+      </div>
+
+      <!-- Step 2: Order Confirmed & Receipt Popup View -->
+      <div id="checkout-confirmation-view" style="display: none;"></div>
+
+    </div>
+  </div>
+
+  <!-- Footer Section -->
+  <footer>
+    <div style="max-width: 1280px; margin: 0 auto; padding: 0 24px;">
+
+      <!-- Newsletter Section -->
+      <div
+        style="background: linear-gradient(135deg, #0B0F14, #171D26); border: 1px solid var(--border-color); border-radius: 20px; padding: 36px; margin-bottom: 48px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 24px;">
+        <div>
+          <span
+            style="color: var(--accent-primary); font-size: 0.75rem; font-weight: 800; text-transform: uppercase;">Newsletter</span>
+          <h3 style="font-size: 1.75rem; font-weight: 800; color: #fff; margin-top: 4px;">Stay in the Sound<span
+              style="color: var(--accent-primary);">.</span></h3>
+          <p style="color: var(--text-secondary); font-size: 0.9rem;">Get product updates, exclusive offers and the
+            latest from SONIQ.</p>
+        </div>
+        <form id="newsletter-form" style="display: flex; gap: 10px; max-width: 420px; width: 100%;">
+          <input type="email" required placeholder="Enter your email" class="form-input" style="flex: 1;" />
+          <button type="submit" class="btn-primary" style="padding: 12px 24px; font-size: 0.85rem;">Subscribe</button>
+        </form>
+      </div>
+
+      <div class="footer-grid">
+        <!-- Col 1 -->
+        <div>
+          <a href="#home" data-page="home">
+            <img src="/assets/logo-D4P41aGs.png" alt="SONIQ Hear Beyond Logo" class="footer-logo-img"
+              style="height: 52px; display: block; margin-bottom: 12px;" />
+          </a>
+          <p style="font-size: 0.8rem; line-height: 1.6;">SONIQ is a modern consumer electronics brand engineering
+            premium audio products designed for immersive sound and ergonomic everyday comfort.</p>
+        </div>
+
+        <!-- Col 2 -->
+        <div>
+          <h4 style="color: #fff; font-size: 0.9rem; font-weight: 800; text-transform: uppercase; margin-bottom: 16px;">
+            Quick Links</h4>
+          <ul style="list-style: none; font-size: 0.85rem; space-y-2;">
+            <li><a href="#home" data-page="home">Home</a></li>
+            <li style="margin-top: 8px;"><a href="#earbuds" data-page="earbuds">Wireless Earbuds</a></li>
+            <li style="margin-top: 8px;"><a href="#headphones" data-page="headphones">Headphones</a></li>
+            <li style="margin-top: 8px;"><a href="#speakers" data-page="speakers">Bluetooth Speakers</a></li>
+            <li style="margin-top: 8px;"><a href="#soundbars" data-page="soundbars">Soundbars</a></li>
+            <li style="margin-top: 8px;"><a href="#contact" data-page="contact">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3 -->
+        <div>
+          <h4 style="color: #fff; font-size: 0.9rem; font-weight: 800; text-transform: uppercase; margin-bottom: 16px;">
+            Customer Support</h4>
+          <ul style="list-style: none; font-size: 0.85rem;">
+            <li><a href="#contact" data-page="contact">Shipping Information</a></li>
+            <li style="margin-top: 8px;"><a href="#contact" data-page="contact">Returns & Refunds</a></li>
+            <li style="margin-top: 8px;"><a href="#contact" data-page="contact">FAQs</a></li>
+            <li style="margin-top: 8px;"><a href="#contact" data-page="contact">Warranty Registration</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4 -->
+        <div>
+          <h4 style="color: #fff; font-size: 0.9rem; font-weight: 800; text-transform: uppercase; margin-bottom: 16px;">
+            Connect With Us</h4>
+          <div class="social-links">
+            <a href="https://instagram.com" target="_blank" class="social-btn">IG</a>
+            <a href="https://facebook.com" target="_blank" class="social-btn">FB</a>
+            <a href="https://x.com" target="_blank" class="social-btn">X</a>
+            <a href="https://youtube.com" target="_blank" class="social-btn">YT</a>
+            <a href="https://linkedin.com" target="_blank" class="social-btn">IN</a>
+          </div>
+          <div style="font-size: 0.8rem; margin-top: 16px; line-height: 1.6;">
+            <p>📍 Keshav Mahavidyalaya, Sainik Vihar, Pitampura, Delhi – 110034</p>
+            <p>✉️ arnavjain22.work@gmail.com</p>
+            <p>📞 +91 99963 32978</p>
+          </div>
+        </div>
+      </div>
+
+      <div
+        style="border-top: 1px solid var(--border-color); padding-top: 24px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; font-size: 0.75rem;">
+        <p>© 2026 SONIQ. All Rights Reserved.</p>
+        <div
+          style="background: var(--bg-primary); border: 1px solid var(--border-color); padding: 4px 12px; border-radius: 6px;">
+          <span style="color: #fbbf24; font-weight: 700;">Academic Disclaimer: </span>
+          <span>SONIQ is a fictional brand created for academic purposes (Digital Marketing SEC 5 Project).</span>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Application Scripts -->
+  <script src="js/products-data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
